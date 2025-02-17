@@ -1,22 +1,20 @@
 # DSList - API REST com Spring Boot
 
-Descrição
+## Descrição
 
 Este é um projeto backend desenvolvido com Spring Boot, fornecendo uma API REST para gerenciamento de uma lista de jogos.
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 Java 17
 
 Spring Boot
 
-Hibernate
-
 Banco de Dados (H2, MySQL ou PostgreSQL)
 
-Instalação e Execução
+## Instalação e Execução
 
-Requisitos
+## Requisitos
 
 Java 17 ou superior instalado
 
@@ -24,7 +22,7 @@ Maven
 
 Banco de dados configurado
 
-Passos para rodar o projeto
+## Passos para rodar o projeto
 
 Clone o repositório:
 
@@ -48,7 +46,7 @@ A API estará disponível em:
 
 http://localhost:8080
 
-Estrutura do Projeto
+## Estrutura do Projeto
 
 /src
   /main/java/com/devsuperior/dslist
@@ -58,7 +56,7 @@ Estrutura do Projeto
     /dto         # Objetos de Transferência de Dados (DTOs)
     /entities    # Modelos de dados (Entidades)
 
-Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 Listagem de jogos
 
@@ -66,7 +64,7 @@ Reordenação da Lista de Jogos
 
 Demonstração de Dados específicos através dos DTOs
 
-Contribuição
+## Contribuição
 
 Fork este repositório.
 
