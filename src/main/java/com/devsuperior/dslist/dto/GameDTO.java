@@ -16,12 +16,8 @@ public class GameDTO {
 	private String shortDescription;
 	private String longDescription;
 	
-	public GameDTO() {
-	}
-	
 	public GameDTO(Game entity) {
-		BeanUtils.copyProperties(entity, this); // método do framework para copiar todos os dados da entidade passada por parametro com a 
-												// entidade do construtos(dados = this.id, this.title, this.year, etc)
+		BeanUtils.copyProperties(entity, this);
 	}
 
 	public Long getId() {
@@ -95,6 +91,4 @@ public class GameDTO {
 	public void setLongDescription(String longDescription) {
 		this.longDescription = longDescription;
 	}
-	
-	
 }
