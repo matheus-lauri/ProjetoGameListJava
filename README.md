@@ -1,5 +1,22 @@
 # Projeto Backend com Java Spring
 
+Este projeto é uma API REST desenvolvida em Java 21 LTS utilizando Spring Boot 3.4.X. A aplicação fornece suporte a um sistema de listagem de jogos, retornando informações básicas sobre os títulos disponíveis.
+
+## Arquitetura
+
+A API segue a arquitetura em camadas conforme abaixo:
+
+- Controladores REST: Responsáveis por expor endpoints para listagem e detalhes dos jogos.
+- Camada de Serviço: Contém a lógica de negócio da aplicação.
+- Camada de Acesso a Dados: Utiliza um ORM (Hibernate/JPA) para interagir com o banco de dados.
+
+## Endpoints principais
+
+A API disponibiliza endpoints para:
+
+- Listar todos os jogos (GET /jogos)
+- Buscar um jogo por ID (GET /jogos/{id})
+
 ## Modelo de domínio DSList
 
 ![Modelo de domínio DSList](https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/dslist-model.png)
